@@ -1,0 +1,10 @@
+namespace PowerfullTrim
+{
+    public static class Extensions
+    {
+        public static string PowerfullTrim(this string trimString)
+        {
+            return trimString.Replace(" ", "");
+        }
+    }
+}
